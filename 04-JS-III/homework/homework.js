@@ -94,7 +94,7 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  return agregarNumeros(resultadosTests) / resultadosTest.length;
+  return agregarNumeros(resultadosTest) / resultadosTest.length;
 }
 
 
@@ -182,7 +182,7 @@ function mesesDelAño(array) {
   // Tu código:
   var nuevoArray = [];
   for(let i= 0; i<array.length; i++) {
-    if(array[i] === "Enero" || array[i] === "Marzo" || array[i === "Noviembre"]) {
+    if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
       nuevoArray.push(array[i]);
     }
   }
